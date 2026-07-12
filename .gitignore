@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (manter CSVs pequenos, ignorar arquivos grandes se necessário)
+# *.csv  # comentado pois os datasets acompanham os notebooks
