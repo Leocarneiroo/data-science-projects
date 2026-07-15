@@ -1,0 +1,4 @@
+# Snapshots são temporários — não commitar
+snapshot-*.md
+ACTIVE_CONTEXT.md
+# NOTES.md e TODO.md DEVEM ser commitados (contexto durável)
