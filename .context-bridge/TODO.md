@@ -6,4 +6,4 @@
 
 - [ ] Revisar ETAPA 1 com o usuário
 - [x] Registrar decisão de snapshot do estudo antes do commit
-- [ ] Finalizar estudo `PCA-analise-de-modelos`
+- [x] Finalizar estudo `PCA-analise-de-modelos`

@@ -11,3 +11,6 @@ Na revisão da ETAPA 1, usar o CSV real como fonte de verdade. O enunciado cita 
 
 ## 2026-07-15 01:12 — Decisão
 Commitar o estado atual do estudo com os arquivos novos já presentes no workspace: `PCA-analise-de-modelos/` + `.context-bridge/`. Motivo: preservar progresso antes de continuar amanhã.
+
+## 2026-07-15 01:15 — Decisão
+Publicar `main` no remoto após o snapshot local. Motivo: encerrar o estudo de hoje com backup no GitHub e retomar amanhã sem risco de perder progresso.
