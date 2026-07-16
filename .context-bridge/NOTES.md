@@ -14,3 +14,12 @@ Commitar o estado atual do estudo com os arquivos novos já presentes no workspa
 
 ## 2026-07-15 01:15 — Decisão
 Publicar `main` no remoto após o snapshot local. Motivo: encerrar o estudo de hoje com backup no GitHub e retomar amanhã sem risco de perder progresso.
+
+## 2026-07-16 00:00 — Decisão
+Na ETAPA 2 do projeto `PCA-analise-de-modelos`, usar `WebPurchases` como variável alvo (`Y`). Motivo: o enunciado fala em prever intenção de compra online e a coluna já está binária (`0/1`), adequada para classificação.
+
+## 2026-07-16 00:10 — Decisão
+Não aplicar `PCA.fit_transform` diretamente em `X` bruto. Motivo: o fluxo correto para modelagem é separar treino/teste, codificar categóricas, padronizar com ajuste no treino e só então ajustar o PCA no treino para evitar vazamento e erro de tipos.
+
+## 2026-07-16 00:20 — Decisão
+Publicar no GitHub o avanço da ETAPA 2 do notebook `PCA-analise-de-modelos`, incluindo separação de `X`/`Y`, split treino/teste, encoding, padronização e PCA no fluxo correto de modelagem.

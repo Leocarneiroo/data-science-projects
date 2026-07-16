@@ -7,3 +7,6 @@
 - [ ] Revisar ETAPA 1 com o usuário
 - [x] Registrar decisão de snapshot do estudo antes do commit
 - [x] Finalizar estudo `PCA-analise-de-modelos`
+- [ ] Separar `X` e `Y` usando `WebPurchases` como alvo
+- [ ] Refazer pipeline de PCA na ordem correta após `train_test_split`
+- [x] Publicar no GitHub o avanço da ETAPA 2 do notebook PCA
