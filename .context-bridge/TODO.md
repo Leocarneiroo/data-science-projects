@@ -1,12 +1,17 @@
 - [x] Alinhar remote com o repo alvo
 - [x] Publicar `main` no GitHub
-- [ ] Mapear arquivos e reproduzir problemas em PCA-analise-de-modelos
+- [x] Mapear arquivos e reproduzir problemas em `PCA-analise-de-modelos`
 - [x] Levantar objetivos do notebook PCA-analise-de-modelos
-- [ ] Alinhar objetivo final com o usuário
-
-- [ ] Revisar ETAPA 1 com o usuário
+- [x] Alinhar objetivo final com o usuário
+- [x] Revisar ETAPA 1 com o usuário
 - [x] Registrar decisão de snapshot do estudo antes do commit
 - [x] Finalizar estudo `PCA-analise-de-modelos`
-- [ ] Separar `X` e `Y` usando `WebPurchases` como alvo
-- [ ] Refazer pipeline de PCA na ordem correta após `train_test_split`
+- [x] Separar `X` e `Y` usando `WebPurchases` como alvo
+- [x] Refazer pipeline de PCA na ordem correta após `train_test_split`
 - [x] Publicar no GitHub o avanço da ETAPA 2 do notebook PCA
+- [x] Corrigir célula `x = base.drop(columns='WebPurchases')` na ETAPA 2 do notebook PCA
+- [ ] Remover ou isolar o PCA exploratório aplicado na base inteira antes do split
+- [x] Executar novamente células finais da ETAPA 2 confirmar `shapes` + variância explicada
+- [x] Implementar 2 modelos de classificação na ETAPA 3 do notebook PCA
+- [x] Comparar métricas dos 2 modelos e adicionar matriz de confusão na ETAPA 4
+- [x] Escrever conclusão final indicando qual modelo performou melhor
