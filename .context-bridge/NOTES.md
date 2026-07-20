@@ -33,3 +33,5 @@ Na revisão geral da atividade M37, considerar a ETAPA 2 tecnicamente concluída
 
 ## 2026-07-17 18:10 — Decisão
 Considerar a atividade M37 concluída no notebook salvo. Motivo: ETAPA 3 recebeu Regressão Logística e Random Forest; ETAPA 4 recebeu métricas, matrizes de confusão, comparação final e validação cruzada confirmando o Random Forest como melhor modelo (`f1` médio ~0,84 contra ~0,81 da regressão).
+## 2026-07-20 01:09 — Decisão
+Atualizar GitHub com o exercício de XGBoost, incluindo notebook e dataset pequenos.
