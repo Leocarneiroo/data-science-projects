@@ -16,4 +16,4 @@
 - [x] Comparar métricas dos 2 modelos e adicionar matriz de confusão na ETAPA 4
 - [x] Escrever conclusão final indicando qual modelo performou melhor
 - [x] Validar JSON do notebook XGBoost/MOD39_EXERCICIO.ipynb
-- [ ] Fazer commit e push do exercício XGBoost
+- [x] Fazer commit e push do exercício XGBoost
