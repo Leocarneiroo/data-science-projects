@@ -1,49 +1,48 @@
-# EBAC — Profissão Cientista de Dados
+# EBAC - Profissao Cientista de Dados
 
-Repositório com os projetos práticos mais relevantes desenvolvidos durante o curso **Profissão Cientista de Dados** da EBAC, cobrindo machine learning supervisionado e não supervisionado, validação de modelos, SQL e visualização de dados.
+Repositorio com projetos praticos desenvolvidos durante o curso **Profissao Cientista de Dados** da EBAC, cobrindo pre-processamento, modelos supervisionados, validacao e comparacao de algoritmos.
 
 ## Projetos
 
-| Módulo | Tema | Algoritmo | Dataset | Registros | Pasta |
-|---|---|---|---|---|---|
-| M27 | Previsão de Doenças Cardiovasculares | Regressão Logística + SMOTE | CARDIO_BASE | 10.001 | [`M27-regressao-logistica-cardio/`](./M27-regressao-logistica-cardio) |
-| M28 | Duelo de Modelos (Titanic) | Árvore de Decisão vs Reg. Logística | Titanic | 891 | [`M28-duelo-modelos-titanic/`](./M28-duelo-modelos-titanic) |
-| M32 | Classificação de Vinhos | Random Forest (Classificação + Regressão) | Wine Quality | 1.600 | [`M32-random-forest-wine/`](./M32-random-forest-wine) |
-| M35 | Detecção de Incêndios via IoT | Cross Validation (KFold 10) + Random Forest | Smoke Detection IoT | 62.631 | [`M35-cross-validation-iot/`](./M35-cross-validation-iot) |
+| Modulo | Tema | Algoritmo | Dataset | Registros | Pasta |
+|---|---|---|---|---:|---|
+| M27 | Previsao de doencas cardiovasculares | Regressao Logistica + SMOTE | CARDIO_BASE | 10.001 | [`M27-regressao-logistica-cardio/`](./M27-regressao-logistica-cardio) |
+| M28 | Duelo de modelos no Titanic | Arvore de Decisao vs Regressao Logistica | Titanic | 891 | [`M28-duelo-modelos-titanic/`](./M28-duelo-modelos-titanic) |
+| M32 | Classificacao de vinhos | Random Forest | Wine Quality | 1.600 | [`M32-random-forest-wine/`](./M32-random-forest-wine) |
+| M35 | Deteccao de incendios via IoT | Cross Validation + Random Forest | Smoke Detection IoT | 62.631 | [`M35-cross-validation-iot/`](./M35-cross-validation-iot) |
+| M37 | Analise de clientes e PCA | PCA + modelos de classificacao | Marketing Campaign | 2.240 | [`PCA-analise-de-modelos/`](./PCA-analise-de-modelos) |
+| M39 | Propensao de compra de carros | XGBoost | CARRO_CLIENTES | 1.000 | [`XGBoost/`](./XGBoost) |
+| M40 | Propensao de compra de carros | SVM linear vs SVM poly | CARRO_CLIENTES | 1.000 | [`SVM/`](./SVM) |
 
-## Skills demonstradas
+## Destaques
 
-- **Pré-processamento:** Encoding (Label + One-Hot), SMOTE, StandardScaler, tratamento de outliers (IQR), dados faltantes
-- **ML supervisionado:** Regressão Logística, Árvore de Decisão, Random Forest (classificação e regressão), Naive Bayes
-- **Validação:** Cross Validation (KFold 5/10), GridSearchCV, RandomizedSearchCV
-- **Métricas:** ROC/AUC, classification report, matriz de confusão, R², MSE, MAE
-- **Regularização:** Lasso (L1), Ridge (L2), ElasticNet
-- **SQL:** SELECT, JOIN, DDL (CREATE/INSERT), agregações
-- **Visualização:** matplotlib, seaborn, plotly (11 tipos de gráficos)
+- Pre-processamento: Label Encoder, One-Hot Encoding, SMOTE, StandardScaler e tratamento de dados faltantes.
+- Modelagem: Regressao Logistica, Arvore de Decisao, Random Forest, PCA, XGBoost e SVM.
+- Validacao: train/test split, matriz de confusao, classification report, acuracia, precision, recall, f1-score e cross-validation.
+- Comparacao recente: no dataset `CARRO_CLIENTES`, XGBoost teve melhor desempenho que SVM linear e SVM poly.
 
-## Stack
+## Tecnologias
 
-```
-Python 3 • pandas • numpy • scikit-learn • imblearn • scipy
-matplotlib • seaborn • plotly • sqlite3
+```text
+Python 3
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+scipy
+matplotlib
+seaborn
+plotly
+jupyter
 ```
 
 ## Como executar
 
 ```bash
-# Clonar o repositório
-git clone https://github.com/Leocarneiroo/ebac-data-science-projetos.git
-cd ebac-data-science-projetos
-
-# Instalar dependências
-pip install pandas numpy scikit-learn imblearn scipy matplotlib seaborn plotly
-
-# Abrir qualquer notebook
-jupyter notebook M27-regressao-logistica-cardio/notebook.ipynb
+git clone https://github.com/Leocarneiroo/data-science-projects.git
+cd data-science-projects
+pip install -r requirements.txt
+jupyter notebook
 ```
 
-Cada pasta contém o notebook + dataset correspondente, prontos para execução.
-
-## Sobre
-
-Desenvolvido como parte do curso Profissão Cientista de Dados da EBAC (Módulos 13 a 36).
+Cada pasta contem o notebook e o dataset correspondente.
