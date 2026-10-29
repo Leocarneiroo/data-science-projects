@@ -9,10 +9,12 @@ Repositorio com projetos praticos desenvolvidos durante o curso **Profissao Cien
 | M27 | Previsao de doencas cardiovasculares | Regressao Logistica + SMOTE | CARDIO_BASE | 10.001 | [`M27-regressao-logistica-cardio/`](./M27-regressao-logistica-cardio) |
 | M28 | Duelo de modelos no Titanic | Arvore de Decisao vs Regressao Logistica | Titanic | 891 | [`M28-duelo-modelos-titanic/`](./M28-duelo-modelos-titanic) |
 | M32 | Classificacao de vinhos | Random Forest | Wine Quality | 1.600 | [`M32-random-forest-wine/`](./M32-random-forest-wine) |
+| M33 | Segmentacao de clientes | K-Means (k=6, silhouette 0,427) | Mall_Customers | 200 | [`Kmeans/`](./Kmeans) |
 | M35 | Deteccao de incendios via IoT | Cross Validation + Random Forest | Smoke Detection IoT | 62.631 | [`M35-cross-validation-iot/`](./M35-cross-validation-iot) |
 | M37 | Analise de clientes e PCA | PCA + modelos de classificacao | Marketing Campaign | 2.240 | [`PCA-analise-de-modelos/`](./PCA-analise-de-modelos) |
 | M39 | Propensao de compra de carros | XGBoost | CARRO_CLIENTES | 1.000 | [`XGBoost/`](./XGBoost) |
 | M40 | Propensao de compra de carros | SVM linear vs SVM poly | CARRO_CLIENTES | 1.000 | [`SVM/`](./SVM) |
+| M41 | Competicao Titanic no Kaggle | Regressao Logistica, SVM, Random Forest e XGBoost com GridSearch/RandomizedSearch | Titanic (Kaggle) | 891 | [`Titanic - Competition/`](./Titanic%20-%20Competition) |
 
 ## Destaques
 
@@ -45,4 +47,4 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Cada pasta contem o notebook e o dataset correspondente.
+Cada pasta contem o notebook e o dataset correspondente, exceto `Titanic - Competition/`: os arquivos `train.csv`, `test.csv` e `gender_submission.csv` nao sao versionados e devem ser baixados da competicao [Titanic do Kaggle](https://www.kaggle.com/competitions/titanic/data).
